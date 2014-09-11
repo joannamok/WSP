@@ -1,1 +1,128 @@
 /*main css*/
+/*body*/
+body{
+	background: #fffdf5;
+ 	background: -webkit-linear-gradient(#fffcf1, #fffdf5);
+	background: -moz-linear-gradient(#fffcf1, #fffdf5);
+	background: -o-linear-gradient(#fffcf1, #fffdf5);
+	background: -ms-linear-gradient(#fffcf1, #fffdf5);
+	background: linear-gradient(#fffcf1, #fffdf5);
+}
+/***********************MAIN NAV*********************************/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	background: #1f8a70;
+	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
+	background: -moz-linear-gradient(#4ca18d, #1f8a70);
+	background: -o-linear-gradient(#4ca18d, #1f8a70);
+	background: -ms-linear-gradient(#4ca18d, #1f8a70);
+	background: linear-gradient(#4ca18d, #1f8a70);
+}
+/*nav bar text*/
+.navbar-default .navbar-nav>li>a {
+color: #fffdf5;
+}
+/*active nav button*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
+	background: #fd7400;
+	color: #fffdf5;
+}
+/*hover over nav buttons*/
+.navbar-default .navbar-nav>li>a:hover{
+	background: #bedb39;
+	color: #fffdf5;
+}
+/*dropdown menu at full screen size*/
+.navbar-nav>li>.dropdown-menu{
+	background: #1f8a70;
+	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
+	background: -moz-linear-gradient(#4ca18d, #1f8a70);
+	background: -o-linear-gradient(#4ca18d, #1f8a70);
+	background: -ms-linear-gradient(#4ca18d, #1f8a70);
+	background: linear-gradient(#4ca18d, #1f8a70);
+}
+/*nav bar at mobile size*/
+.navbar-header{
+	background: #1f8a70;
+	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
+	background: -moz-linear-gradient(#4ca18d, #1f8a70);
+	background: -o-linear-gradient(#4ca18d, #1f8a70);
+	background: -ms-linear-gradient(#4ca18d, #1f8a70);
+	background: linear-gradient(#4ca18d, #1f8a70);
+}
+/*pancake nav button*/
+#navButton{
+	background: #fd7400;
+}
+/*pancake nav bars*/
+#navButton .icon-bar{
+	background: #fffdf5;
+}
+/*drop down menu*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	color: #fffdf5;
+}
+/*drop down menu hover*/
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover{
+	background: #bedb39;
+	color: #fffdf5;
+}
+/*dropdown section on open*/
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background: #fffdf5;
+ 	background: -webkit-linear-gradient(#fffcf1, #fffdf5);
+	background: -moz-linear-gradient(#fffcf1, #fffdf5);
+	background: -o-linear-gradient(#fffcf1, #fffdf5);
+	background: -ms-linear-gradient(#fffcf1, #fffdf5);
+	background: linear-gradient(#fffcf1, #fffdf5);
+	color: #1f8a70;
+}
+/***************BREADCRUMBS****************/
+ol.breadcrumb{
+	background: inherit;
+}
+
+/***************SEARCH SECTION******************/
+/*search section*/
+#search{
+	padding-top: 50px;
+}
+/*search button*/
+.btn-primary{
+	background: #fd7400;
+	border-color: #fd7400;
+	width:100px;
+	color: #fffdf5;
+}
+/*search button hover*/
+.btn-primary:hover{
+	background: #bedb39;
+	border-color: #bedb39;
+	color: #fffdf5;
+}
+/*search input and button*/
+#search .btn-primary,#search .input-group{
+	margin-top: 30px;
+}
+/**********FOOTER**********************/
+footer{
+	margin-top: 50px;
+	padding-top: 50px;
+	border-top:2px solid #1f8a70;
+}
+/*footer nav links*/
+.nav-pills>li>a{
+	color: #4ca18d;
+}
+/*active color for pills nav*/
+.nav-pills>li.active>a{
+	background: inherit;
+	color: #fd7400;
+}
+.nav-pills>li.active>a:hover{
+	background: #bedb39;
+}
+/*hover over footer nav*/
+.nav-pills>li>a:hover{
+	background: #bedb39;
+	color: #fffdf5;
+}
