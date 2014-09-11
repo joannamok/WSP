@@ -103,6 +103,28 @@ ol.breadcrumb{
 #search .btn-primary,#search .input-group{
 	margin-top: 30px;
 }
+/**/
+.input-group-btn:first-child>.dropdown-toggle{
+	background: #fd7400;
+	color: #fffdf5;
+}
+.input-group-btn:first-child>.dropdown-toggle:hover{
+	background: #1f8a70;
+	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
+	background: -moz-linear-gradient(#4ca18d, #1f8a70);
+	background: -o-linear-gradient(#4ca18d, #1f8a70);
+	background: -ms-linear-gradient(#4ca18d, #1f8a70);
+	background: linear-gradient(#4ca18d, #1f8a70);
+}
+.dropdown-menu>li>a:hover{
+	background: #1f8a70;
+	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
+	background: -moz-linear-gradient(#4ca18d, #1f8a70);
+	background: -o-linear-gradient(#4ca18d, #1f8a70);
+	background: -ms-linear-gradient(#4ca18d, #1f8a70);
+	background: linear-gradient(#4ca18d, #1f8a70);
+	color: #fffdf5;
+}
 /**********FOOTER**********************/
 footer{
 	margin-top: 50px;
