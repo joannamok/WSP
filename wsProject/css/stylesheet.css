@@ -29,13 +29,19 @@ padding-top: 10px;
 .breadcrumb li a{
 	color: #1f8a70;
 }
-/**/
+/*read more links*/
 .readLink{
 	color: #fd7400;
 }
+/*read more links on hover*/
 .readLink:hover{
 	text-decoration: none;
 	color: #bedb39;
+}
+/*pagination buttons*/
+ul.pagination>li>a{
+	background: #004358;
+	color: #fffdf5;
 }
 /***********************MAIN NAV*********************************/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -241,7 +247,9 @@ footer{
 
 
 /*******************************************************FAV.HTML PAGE********************************************/
-
+#favGal img{
+	margin-bottom: 15px;
+}
 
 
 
