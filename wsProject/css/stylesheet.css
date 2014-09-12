@@ -1,4 +1,4 @@
-/*main css*/
+/*General css*/
 /*body*/
 body{
 	background: #fffdf5;
@@ -7,6 +7,18 @@ body{
 	background: -o-linear-gradient(#fffcf1, #fffdf5);
 	background: -ms-linear-gradient(#fffcf1, #fffdf5);
 	background: linear-gradient(#fffcf1, #fffdf5);
+}
+h1,h2{
+	color: #fd7400;
+}
+/*subheadings*/
+h4,h3{
+	color: #1f8a70;
+}
+/*default button dropdown*/
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle), .btn-group>.btn-lg+.dropdown-toggle{
+	background: #fd7400;
+	color: #fffdf5;
 }
 /***********************MAIN NAV*********************************/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
@@ -90,7 +102,7 @@ ol.breadcrumb{
 .btn-primary{
 	background: #fd7400;
 	border-color: #fd7400;
-	width:100px;
+	width:140px;
 	color: #fffdf5;
 }
 /*search button hover*/
@@ -103,11 +115,12 @@ ol.breadcrumb{
 #search .btn-primary,#search .input-group{
 	margin-top: 30px;
 }
-/**/
+/*search drop down*/
 .input-group-btn:first-child>.dropdown-toggle{
 	background: #fd7400;
 	color: #fffdf5;
 }
+/*search drop down hover*/
 .input-group-btn:first-child>.dropdown-toggle:hover{
 	background: #1f8a70;
 	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
@@ -116,6 +129,7 @@ ol.breadcrumb{
 	background: -ms-linear-gradient(#4ca18d, #1f8a70);
 	background: linear-gradient(#4ca18d, #1f8a70);
 }
+/*drop down list hover*/
 .dropdown-menu>li>a:hover{
 	background: #1f8a70;
 	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
@@ -124,6 +138,10 @@ ol.breadcrumb{
 	background: -ms-linear-gradient(#4ca18d, #1f8a70);
 	background: linear-gradient(#4ca18d, #1f8a70);
 	color: #fffdf5;
+}
+/*"one-stop search" text in Jingle under search*/
+#logoTag{
+	color: #fd7400;
 }
 /**********FOOTER**********************/
 footer{
@@ -148,3 +166,75 @@ footer{
 	background: #bedb39;
 	color: #fffdf5;
 }
+
+/*******************************************************INDEX.HTML PAGE********************************************/
+/******JumboTron Section(main)*****/
+/*container*/
+.jumbotron{
+	background: #1f8a70;
+	background: -webkit-linear-gradient(#4ca18d, #1f8a70);
+	background: -moz-linear-gradient(#4ca18d, #1f8a70);
+	background: -o-linear-gradient(#4ca18d, #1f8a70);
+	background: -ms-linear-gradient(#4ca18d, #1f8a70);
+	background: linear-gradient(#4ca18d, #1f8a70);
+	margin-top: 30px;
+}
+/*main article title*/
+.jumbotron h2{
+	background: #fffdf5;
+ 	background: -webkit-linear-gradient(#fffcf1, #fffdf5);
+	background: -moz-linear-gradient(#fffcf1, #fffdf5);
+	background: -o-linear-gradient(#fffcf1, #fffdf5);
+	background: -ms-linear-gradient(#fffcf1, #fffdf5);
+	background: linear-gradient(#fffcf1, #fffdf5);
+	padding: 10px;
+	-webkit-border-radius:40px 10px 40px 10px;
+	-moz-border-radius: 40px 10px 40px 10px;
+	-o-border-radius:40px 10px 40px 10px;
+	border-radius:40px 10px 40px 10px ;
+}
+/*main paragraph*/
+.jumbotron p{
+	color:#fffdf5; 
+}
+/*main article image*/
+.jumbotron img{
+	border: 2px solid #fd7400;
+}
+
+/********Gallery*********/
+/* drop down btn container for how many to list in gal*/
+#listBtn{
+	margin-top: 5px;
+}
+#supplyGal .img-responsive{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
