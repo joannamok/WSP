@@ -9,7 +9,7 @@ body{
 	background: linear-gradient(#fffcf1, #fffdf5);
 }
 h1,h2{
-	color: #fd7400;
+	color: #004358;
 }
 /*subheadings*/
 h4,h3{
@@ -17,7 +17,7 @@ h4,h3{
 }
 /*default button dropdown*/
 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle), .btn-group>.btn-lg+.dropdown-toggle{
-	background: #fd7400;
+	background: #004358;
 	color: #fffdf5;
 }
 /***********************MAIN NAV*********************************/
@@ -179,33 +179,20 @@ footer{
 	background: linear-gradient(#4ca18d, #1f8a70);
 	margin-top: 30px;
 }
-/*main article title*/
-.jumbotron h2{
-	background: #fffdf5;
- 	background: -webkit-linear-gradient(#fffcf1, #fffdf5);
-	background: -moz-linear-gradient(#fffcf1, #fffdf5);
-	background: -o-linear-gradient(#fffcf1, #fffdf5);
-	background: -ms-linear-gradient(#fffcf1, #fffdf5);
-	background: linear-gradient(#fffcf1, #fffdf5);
-	padding: 10px;
-	-webkit-border-radius:40px 10px 40px 10px;
-	-moz-border-radius: 40px 10px 40px 10px;
-	-o-border-radius:40px 10px 40px 10px;
-	border-radius:40px 10px 40px 10px ;
-}
 /*main paragraph*/
 .jumbotron p{
 	color:#fffdf5; 
 }
 /*main article image*/
 .jumbotron img{
-	border: 2px solid #fd7400;
+	border: 2px solid #004358;
 }
 
 /********Second Article Section*********/
 /*container for second article row*/
 #secondArticle{
 	margin-top: 30px;
+	padding-bottom: 30px;
 }
 /*article with feature artist*/
 #featureArtist{
@@ -214,8 +201,17 @@ footer{
 /*feature artist button*/
 #secondArticle button{
 	width: 50%;
+	border:#004358;
+	margin-top: 30px;
 }
-
+/***********Gallery***************/
+/*gal section*/
+#supplyGal{
+	margin-top: 30px;
+}
+#supplyGal img{
+	margin-bottom: 10px;
+}
 
 
 
