@@ -9,7 +9,7 @@ body{
 	background: linear-gradient(#fffcf1, #fffdf5);
 }
 h1,h2{
-	color: #004358;
+	color: #1f8a70;
 }
 /*subheadings*/
 h4,h3{
@@ -202,6 +202,10 @@ footer{
 	background: linear-gradient(#4ca18d, #1f8a70);
 	margin-top: 30px;
 }
+/**/
+.jumbotron h2{
+	color:#004358; 
+}
 /*main paragraph*/
 .jumbotron p{
 	color:#fffdf5; 
@@ -247,10 +251,13 @@ footer{
 
 
 /*******************************************************FAV.HTML PAGE********************************************/
+/*images in favorites gallery*/
 #favGal img{
 	margin-bottom: 15px;
 }
-
+#favGal h2{
+	margin-bottom: 30px;
+}
 
 
 
