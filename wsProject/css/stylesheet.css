@@ -20,6 +20,19 @@ h4,h3{
 	background: #004358;
 	color: #fffdf5;
 }
+/*block level button*/
+.btn-block{
+	background: #fd7400;
+	border: #fd7400;
+	margin-top: 30px;
+	color: #fffdf5;
+}
+/**/
+.btn-block:hover{
+	background: #bedb39;
+	border: #bedb39;
+	color: #fffdf5;
+}
 /*breadcrumbs nav*/
 .breadcrumb {
 background-color: inherit;
@@ -166,6 +179,19 @@ ol.breadcrumb{
 #logoTag{
 	color: #fd7400;
 }
+/************************Aside Add Space*************/
+/*add space side panel*/
+aside .thumbnail{
+	background: #fffdf5;
+	padding-top: 30px;
+	border: 1px solid #1f8a70;
+	margin: 30px 0 30px 0;
+}
+
+/*thumbnail text*/
+.thumbnail .caption{
+color: #004358;
+}
 /**********FOOTER**********************/
 footer{
 	margin-top: 50px;
@@ -247,25 +273,56 @@ footer{
 #supplyGal img{
 	margin-bottom: 10px;
 }
-
+#gal1 button{
+	width:100%;
+}
 
 
 /*******************************************************FAV.HTML PAGE********************************************/
+/*title for fav gallery*/
+#favGal h2{
+	margin-bottom: 30px;
+}
 /*images in favorites gallery*/
 #favGal img{
 	margin-bottom: 15px;
 }
-#favGal h2{
-	margin-bottom: 30px;
+
+/***********community fav articles************/
+/*background containers for favs*/
+#fav1,#fav2,#fav3{
+	padding: 10px 40px 60px 40px;
 }
-
-
-
-
-
-
-
-
+/*headers for com fav sections*/
+#fav1 h2,#fav2 h2,#fav3 h2{
+	color: #fffdf5;
+	padding-bottom: 50px;
+}
+/*container for com. faves*/
+#fav1{
+	background: #1f8a70;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+/***fav tut section***/
+/*container for com. fav tuts*/
+#fav2{
+	background: #004358;
+}
+#fav2 .col-lg-4{
+	margin-bottom: 40px;
+}
+/***fav tools section***/
+/*container for com. fav tools*/
+#fav3{
+	background: #1f8a70;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-o-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
 
 
 
