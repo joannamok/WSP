@@ -202,14 +202,20 @@ footer{
 	border: 2px solid #fd7400;
 }
 
-/********Gallery*********/
-/* drop down btn container for how many to list in gal*/
-#listBtn{
-	margin-top: 5px;
+/********Second Article Section*********/
+/*container for second article row*/
+#secondArticle{
+	margin-top: 30px;
 }
-#supplyGal .img-responsive{
-	margin-bottom: 10px;
+/*article with feature artist*/
+#featureArtist{
+	margin-top: 10px;
 }
+/*feature artist button*/
+#secondArticle button{
+	width: 50%;
+}
+
 
 
 
