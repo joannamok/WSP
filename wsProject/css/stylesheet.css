@@ -335,17 +335,24 @@ footer{
 
 
 /************************************************BEADS.HTML*************************************************************************/
+/*bead gal container*/
+#beadGal{
+	padding-top: 100px;
+}
 /*bead article image*/
 #beadImg{
 	float: right;
 	margin:20px;
 	border: 2px solid #004358;
 }
-/**/
-#beadArt{
-	margin-top: 30px;
+/*header in bead gal*/
+#beadGal h2{
+	font-size: 3em;
 }
-
+/*drop down button in beads gal*/
+#listBtn{
+	padding-top:15px;
+}
 /* #Media Queries
 ================================================== */
 
