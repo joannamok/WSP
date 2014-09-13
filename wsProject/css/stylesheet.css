@@ -408,6 +408,10 @@ footer{
 		#beadImg{
 			float: none;
 		}
+
+		#featureArtist h4{
+			padding-top: 30px;
+		}
 	}
 
 
