@@ -361,24 +361,42 @@ footer{
 
 /*************************************************DETAILS PAGE*************************************************************************/
 
+/*text and info in listing*/
+.listText{
+	margin-bottom: 20px;
+}
+/*socail icons*/
+.fa{
+	margin-right: 2%;
+	color: #1f8a70;
+	padding-top: 20px;
+}
+/*hover over socail icons*/
+.fa:hover{
+	color: #fd7400;
+}
+/*social icon container*/
+.social{
+	width: 100%;
+}
 /*item pricing*/
 #price{
 	font-size: 2em;
 	color: #004358;
 }
-/*text and info in listing*/
-.listText{
-	margin-bottom: 20px;
+/*P with rewiew link*/
+#reviewP{
+	font-size: 1.2em;
 }
-
-.fa{
-	margin-right: 15px;
-	color: #1f8a70;
-}
-
-.fa:hover{
+/*Review a link*/
+#reviews{
 	color: #fd7400;
 }
+/*Review a link*/
+#reviews:hover{
+	color: #bedb39;
+}
+
 /* #Media Queries
 ================================================== */
 
@@ -409,9 +427,6 @@ footer{
 			float: none;
 		}
 
-		#featureArtist h4{
-			padding-top: 30px;
-		}
 	}
 
 
