@@ -285,8 +285,12 @@ footer{
 #gal1 button{
 	width:100%;
 }
-
-
+#beadAside{
+	margin-top: 30px;
+}
+#feature{
+	margin-top: 10px;
+}
 /*******************************************************FAV.HTML PAGE********************************************/
 /*title for fav gallery*/
 #favGal h2{
@@ -358,9 +362,15 @@ footer{
 	padding-top:15px;
 }
 
-
 /*************************************************DETAILS PAGE*************************************************************************/
-
+/*container for listing section*/
+#itemPage{
+	margin-top: 25px;
+}
+/*conatiner for listing info and image*/
+#listingInfo{
+	margin-top: 50px;
+}
 /*text and info in listing*/
 .listText{
 	margin-bottom: 20px;
@@ -396,6 +406,13 @@ footer{
 #reviews:hover{
 	color: #bedb39;
 }
+/****Suggested listings***/
+
+#sugBox{
+	margin-top: 130px;
+}
+
+
 
 /* #Media Queries
 ================================================== */
