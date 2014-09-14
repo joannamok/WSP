@@ -75,7 +75,7 @@
     </section>
     <!--login/sign up and bread crumbs-->
     <section class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-3">
             <ul class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Supplies</a></li>
@@ -85,7 +85,7 @@
         <div class="col-sm-6">
             <h4>Your <span id="logoTag">One-Stop Search</span> for Stones,Beads,Metals,Findings &amp; Tutorials</h4>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
         <!--login/logout-->
             <ul class="nav nav-pills login">
                 <li><a href="#">Login</a></li>
@@ -98,84 +98,221 @@
     <!--page section-->
     <section class="row">
         <!--tutorails section-->
-        <section class="col-md-9">
-            <!--top picks tuts-->
+        <section class="col-sm-9" id="vidContent">
+         <!--main article--> 
+        <article id="tipMain">
+            <div id="mainVid">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/MLvpAA0Tc3k"></iframe>
+                </div>
+            </div>
+            <!--title--> 
+            <h2>Textured Metal</h2>
+            <!--article paragraph--> 
+            <p>Learn to make this awesome pair of textured earrings. Beginners and Intermediates alike will enjoy this one. Get your hammers and pliers ready, it’s a good one!</p>
+        </article>
+            <!--accordion tab-->
+            <!--holds whole accordion tab-->
+            <div id="accBox">
+            <div class="panel-group" id="accordion">
+              <!--holds whole panel-->
+              <div class="panel panel-default">
+              <!--holds heading to panel-->
+              <!--Top Picks Panel-->
+                <div class="panel-heading">
+                <!--adds link functionality with jq-->
+                   <h4 class="panel-title"><a href="#top_picks" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">Top Picks of the Month</a></h4>
+                </div>  
+                <!--class of "in" shows which peice will be open at first-->
+                <div id="top_picks" class="panel-collapse collapse in">
+                <!--holds body and panel-->
+                    <div class="panel-body">
+                        <!--top picks tuts-->
+                        <article class="row vidPanel">
+                            <h2>Our Top Picks of the Month</h2>
+                            <p>Check out these great Jewelry Making Tutorials, hand picked by fellow Nerds</p>
+                            <!--row of tutorail-->
+                            <div class="row tutSection">
+                                 <div class="col-sm-4 tutTipVid">
+                                     <div class="embed-responsive embed-responsive-16by9">
+                                         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                 <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div> <!--end panel body-->
+                </div>  
+              </div><!--end panel head and body page-->
+              <!--Bead Panel-->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                   <h4 class="panel-title"><a href="#beadTuts" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">Beading Nerds</a></h4>
+                </div>
+                   <div id="beadTuts"class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <!--Beading tuts-->
+                        <article class="row vidPanel">
+                            <h2>Our Top Picks of the Month</h2>
+                            <p>Check out these great Jewelry Making Tutorials, hand picked by fellow Nerds</p>
+                            <!--row of tutorail-->
+                            <div class="row tutSection">
+                                 <div class="col-sm-4 tutTipVid">
+                                     <div class="embed-responsive embed-responsive-16by9">
+                                         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                 <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                     </div>
+                   </div>
+              </div>   
+                <!--wire wrap tuts-->
+              <div class="panel panel-default">  
+                <div class="panel-heading"> 
+                   <h4 class="panel-title"><a href="#wire_wrap" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">Wire Wrap Nerds</a></h4>
+                </div>
+                <div id="wire_wrap" class="panel-collapse collapse">
+                  <div class="panel-body">
+                        <!--top picks tuts-->
+                        <article class="row vidPanel">
+                            <h2>Our Top Picks of the Month</h2>
+                            <p>Check out these great Jewelry Making Tutorials, hand picked by fellow Nerds</p>
+                            <!--row of tutorail-->
+                            <div class="row tutSection">
+                                 <div class="col-sm-4 tutTipVid">
+                                     <div class="embed-responsive embed-responsive-16by9">
+                                         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                 <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                   </div>
+                </div> 
+              </div>      
+              <!--metal clay tuts-->
+              <div class="panel panel-default">  
+                <div class="panel-heading"> 
+                   <h4 class="panel-title"><a href="#metal_clay" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">Metal Clay Nerds</a></h4>
+                </div>
+                <div id="metal_clay" class="panel-collapse collapse">
+                    <div class="panel-body">
+                      <!--wire wrap tutorails-->
+                         <article class="row vidPanel">
+                                <h2>Our Top Picks of the Month</h2>
+                                <p>Check out these great Jewelry Making Tutorials, hand picked by fellow Nerds</p>
+                                <!--row of tutorail-->
+                                <div class="row tutSection">
+                                     <div class="col-sm-4 tutTipVid">
+                                         <div class="embed-responsive embed-responsive-16by9">
+                                             <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 tutTipVid">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
+                                        </div>
+                                    </div>
+                                     <div class="col-sm-4 tutTipVid">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>  
+                        </div>
+                    </div>
+                </div>
+                <!--smith tut panel-->
+                <div class="panel panel-default">
+                <div class="panel-heading">
+                   <h4 class="panel-title"><a href="#silversmith" class="accordion-toggle" data-toggle="collapse" data-parent="#accordion">Smithing Nerds</a></h4>
+                </div>
+                   <div id="silversmith"class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <!--top smith tuts-->
+                        <article class="row vidPanel">
+                            <h2>Our Top Picks of the Month</h2>
+                            <p>Check out these great SilverSmith Tutorials, hand picked by fellow Nerds</p>
+                            <!--row of tutorail-->
+                            <div class="row tutSection">
+                                 <div class="col-sm-4 tutTipVid">
+                                     <div class="embed-responsive embed-responsive-16by9">
+                                         <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
+                                    </div>
+                                </div>
+                                 <div class="col-sm-4 tutTipVid">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                     </div>
+                   </div>
+              </div>   
+            </div> <!--end accordion tab-->
+            </div><!--end accordion container box-->
+            <!--Tutorails search results-->
             <article class="row">
-                <h2>Our Top Picks of the Month</h2>
-                <p>Check out these great Jewelry Making Tutorials, hand picked by fellow Nerds</p>
-                <!--row of tutorail-->
-                <div class="row tutSection">
-                 <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
-                        </div>
-                    </div>
+                <div class="col-xs-6">
+                <!--title-->
+                <h2>Tutorials</h2>
                 </div>
+                <!--dropdown button-->
+                <div class='col-xs-6 hidden-xs' id="listBtn">
+                    <div class="btn-group pull-right">
+                        <button type="button" class="btn btn-default btn-lg">Item Order</button>
+                        <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Newest</a></li>
+                            <li><a href="#">Price Low to High</a></li>
+                            <li><a href="#">Price High to Low</a></li>
+                        </ul>
+                    </div>
+                </div> 
             </article>
-            <!--top picks tuts-->
-            <article class="row tutSection">
-                <h3>Beading Nerds</h3>
-                <p>Check out these great Beading Tutorials, hand picked by fellow Nerds</p>
-                <!--row of tutorail-->
-                <div class="row">
-                 <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!--top picks tuts-->
-            <article class="row tutSection">
-                <h3>Metal Nerds</h3>
-                <p>Check out these great Metal Tutorials, hand picked by fellow Nerds</p>
-                <!--row of tutorail-->
-                <div class="row">
-                 <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/cGB1FRKsUpg?rel=0"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/-nwY-5WYOwM?rel=0"></iframe>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/PZrpSZgyTTc?rel=0"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </article>
-            <!--search for tutorails-->
-            <section class="row" id="tutSearchBox">
-                <h3>Search for Video Tutorials</h3>
-                
-            </section>
-        </section>
-        <!--Add Sapce-->
-        <aside class="col-md-3">
+        </section><!--end tips page content section-->
+
+        <!--adds section-->
+        <aside class="col-sm-3">
             <div class="col-lg-12">
                 <div class="thumbnail">
                     <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
@@ -189,44 +326,10 @@
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
-                    <h4 class="caption">Add Space</h4>
-                    <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
-                    <h4 class="caption">Add Space</h4>
-                    <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
-                    <h4 class="caption">Add Space</h4>
-                    <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
-                    <h4 class="caption">Add Space</h4>
-                    <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
-                </div>
-            </div>
-            <div class="col-lg-12">
-                <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
-                    <h4 class="caption">Add Space</h4>
-                    <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
-                </div>
-            </div>
-         </aside>
-        
+            </div>   
+        </aside>
+    </section><!--review page-->
+       
     </section>
     <!--footer nav-->
     <footer class="row">

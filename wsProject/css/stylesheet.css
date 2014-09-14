@@ -460,7 +460,53 @@ footer{
 	padding: 1%;
 	margin-bottom: 20px;
 }
-
+/*******************************************************TUTORIALS/TIPS PAGE***************************************************************/
+/*main article box*/
+#tipMain{
+	margin: 30px 5px 30px 5px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	background: #1f8a70;
+}
+#tipMain h2{
+	color: #fffae7;
+}
+/*main article paragraph*/
+#tipMain p{
+	font-size: 1em;
+}
+/*vid container for main article*/
+#tipMain .tutTipVid{
+	margin: 30px 10px 30px 10px;
+}
+/*main article video*/
+#mainVid{
+	width: 200px;
+	height: 150px;
+	float: right;
+}
+/***accordion tab***/
+/*accordion body panel*/
+#vidContent .panel-body{
+	background: #fffae7;
+	padding: 10px 5% 10px 5%;
+}
+/*section holding videos in accordion*/
+.tutSection{
+	margin-top: 20px;
+}
+/*Box holding accordion*/
+#accBox{
+	background: gray;
+	padding: 20px 20px 60px 20px;
+	-webkit-border-radius: 10px 10px 0 0 ;
+	-moz-border-radius: 10px 10px 0 0 ;
+	-o-border-radius: 10px 10px 0 0 ;
+	border-radius: 10px 10px 0 0 ;
+}
 /* #Media Queries
 ================================================== */
 
