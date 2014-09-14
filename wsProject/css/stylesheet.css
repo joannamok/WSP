@@ -7,6 +7,7 @@ body{
 	background: -o-linear-gradient(#fffcf1, #fffdf5);
 	background: -ms-linear-gradient(#fffcf1, #fffdf5);
 	background: linear-gradient(#fffcf1, #fffdf5);
+	color: #004358;
 }
 h1,h2{
 	color: #1f8a70;
@@ -428,7 +429,37 @@ footer{
 	border-top: 2px solid #004358;
 }
 
+/**************************************************REVIEWS PAGE**************************************************************/
+#nerdReview h4,#nerdReview p{
+	margin-bottom: 20px;
+}
+/*p description under page header*/
+#pageDesc{
+	font-size: 1.5em;
+	color: #004358;
+}
+/*P for over-all rating*/
+#totRatingP{
+	font-size: 1.3em;
+	color: #004358;
+}
+/*over-all rating stars*/
+#totRatingP{
+	
+}
+/***Nerd Reviews***/
 
+
+/*review containers*/
+.customerReview{
+	border: 1px solid #1f8a70;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	padding: 1%;
+	margin-bottom: 20px;
+}
 
 /* #Media Queries
 ================================================== */
