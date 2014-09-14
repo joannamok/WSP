@@ -406,10 +406,26 @@ footer{
 #reviews:hover{
 	color: #bedb39;
 }
+/*shop link*/
+#shopName{
+	color: #1f8a70;
+}
+/*shop link**/
+#shopName:hover{
+	color: #bedb39;
+	text-decoration: none;
+}
+
+/*cms container*/
+#cms{
+	color: #004358;
+}
 /****Suggested listings***/
 
 #sugBox{
-	margin-top: 130px;
+	margin-top: 100px;
+	padding-top: 30px;
+	border-top: 2px solid #004358;
 }
 
 
