@@ -471,6 +471,7 @@ footer{
 	padding: 20px;
 	background: #1f8a70;
 }
+/*title for main*/
 #tipMain h2{
 	color: #fffae7;
 }
@@ -479,8 +480,8 @@ footer{
 	font-size: 1em;
 }
 /*vid container for main article*/
-#tipMain .tutTipVid{
-	margin: 30px 10px 30px 10px;
+.vidPanel .tutTipVid{
+	
 }
 /*main article video*/
 #mainVid{
@@ -500,12 +501,38 @@ footer{
 }
 /*Box holding accordion*/
 #accBox{
+	background: #004358;
+	padding: 30px 20px 60px 20px;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+/***Search Results***/
+/*box holding tut search results*/
+#tutGal{
+	padding:40px 5% 20px 5%;
+	background: #1f8a70;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	-o-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
+/*title box for search*/
+#tutSearchTitle{
+	margin-bottom: 30px;
+}
+/*title box for search*/
+#tutSearchTitle h2{
+	color: #fffae7
+}
+/*containers of search results vids*/
+.searchVids{
+	margin-bottom: 20px;
+}
+#accBox .panel-heading{
 	background: gray;
-	padding: 20px 20px 60px 20px;
-	-webkit-border-radius: 10px 10px 0 0 ;
-	-moz-border-radius: 10px 10px 0 0 ;
-	-o-border-radius: 10px 10px 0 0 ;
-	border-radius: 10px 10px 0 0 ;
+	border-color: gray;
 }
 /* #Media Queries
 ================================================== */
@@ -527,7 +554,7 @@ footer{
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
-		
+
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -536,7 +563,10 @@ footer{
 		#beadImg{
 			float: none;
 		}
-
+		/*main article video on tutorails page*/
+		#mainVid{
+			float: none;
+		}
 	}
 
 
