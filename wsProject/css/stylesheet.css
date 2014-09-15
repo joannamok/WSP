@@ -478,6 +478,7 @@ footer{
 /*main article paragraph*/
 #tipMain p{
 	font-size: 1em;
+	color: #fffae7;
 }
 /*vid container for main article*/
 .vidPanel .tutTipVid{
