@@ -481,7 +481,7 @@ footer{
 }
 /*vid container for main article*/
 .vidPanel .tutTipVid{
-	
+	margin-bottom: 10px;
 }
 /*main article video*/
 #mainVid{
@@ -494,6 +494,12 @@ footer{
 #vidContent .panel-body{
 	background: #fffae7;
 	padding: 10px 5% 10px 5%;
+}
+/*accordion headers*/
+#accBox .panel-heading{
+	background: #1f8a70;
+	border-color: #1f8a70;
+	color: #fffae7;
 }
 /*section holding videos in accordion*/
 .tutSection{
@@ -528,12 +534,9 @@ footer{
 }
 /*containers of search results vids*/
 .searchVids{
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
-#accBox .panel-heading{
-	background: gray;
-	border-color: gray;
-}
+
 /* #Media Queries
 ================================================== */
 
