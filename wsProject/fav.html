@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorites</title>
+     <!--google font ** font-family: 'Ubuntu', sans-serif;-->
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
      <!-- normailize CSS -->
@@ -96,70 +98,183 @@
     <section class="row">
         <!--main article-->
         <article class="col-md-9" id="favGal">
-            <h2>My Favorites</h2>
+            <div class="row listingGal">
+                <div class="col-xs-6">
+                    <h2>My Favorites</h2>
+                </div>
+                <!--dropdown button-->
+                <div class='col-xs-6 hidden-xs' id="listBtn">
+                    <div class="btn-group pull-right">
+                        <button type="button" class="btn btn-default btn-lg">Item Order</button>
+                        <button type="button" class="btn btn-default dropdown-toggle btn-lg" data-toggle="dropdown">
+                            <span class="caret"></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Newest</a></li>
+                            <li><a href="#">Price Low to High</a></li>
+                            <li><a href="#">Price High to Low</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+            <!--section with lisitng gallery-->
+            <section class="listingSection">
             <!--row1-->
-            <div class="row" id="galrow1">
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+            <div class="row galrow">
+            <!--col1-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/beadListing.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button htmlclass="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col2-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/bead2.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col3-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/tool2.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <!--col4-->
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/fav4.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <!--row2-->
-            <div class="row">
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+            <div class="row galrow">
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/bead5.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col2-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/tool1.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col3-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/tool3.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col4-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/fav3.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <!--row2-->
-            <div class="row">
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+            <!--row3-->
+            <div class="row galrow">
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/bead6.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col2-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/bead3.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col3-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/fav1.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
+                <!--col4-->
+                <div class="col-sm-3 col-xs-6 imageBox">
+                    <a href="details.html">
+                        <div class="listBox">
+                            <img class="img-responsive" src="images/bead8.jpg" alt="supply listing" >
+                            <!--content on hover-->
+                            <div class="content">
+                                <button class="hoverFav glyphicon glyphicon-heart"></button>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
-            <!--row4-->
-            <div class="row">
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
-                </div>
-                <div class="col-sm-3 col-xs-6">
-                    <a href="#"><img class="img-responsive img-thumbnail" src="images/imageHolder.jpg" alt="supply listing" height="300px" width="300px"></a>
-                </div>
-            </div>
+            </section>
             <!--pagination-->
             <div class="row">
-                <ul class="pagination">
+                <ul class="pagination" id="beadPag">
                     <li><a href="#">&laquo;</a></li>
                     <li><a href="#">1</a></li>
                     <li><a href="#">2</a></li>
@@ -323,49 +438,49 @@
         <aside class="col-md-3">
             <div class="col-lg-12">
                 <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="images/add1.jpg" alt="beads" class="img-responsive img-rounded">
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="images/add2.jpg" alt="jewelry tools" class="img-responsive img-rounded">
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="images/add3.jpg" alt="cabochon stones" class="img-responsive img-rounded">
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="images/add4.jpg" alt="jewelry supllies" class="img-responsive img-rounded">
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="images/add5.jpg" alt="beads" class="img-responsive img-rounded">
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="images/add6.jpg" alt="labradorite cabochon stone" class="img-responsive img-rounded">
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
             </div>
             <div class="col-lg-12">
                 <div class="thumbnail">
-                    <img src="images/imageHolder.jpg" alt="" class="img-responsive img-rounded">
+                    <img src="images/add7.jpg" alt="beaded jewelry" class="img-responsive img-rounded">
                     <h4 class="caption">Add Space</h4>
                     <p class="caption">This is the ultimate hammer; it comes with several textured replacement heads. For best results, use with a stainless steel anvil, also available in shop. Every purchase comes complete with…<a class="readLink"href="#">Read More</a></p>
                 </div>
