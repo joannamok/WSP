@@ -2,12 +2,12 @@
 
 /*body*/
 body{
-	background: #fffae7;
- 	background: -webkit-linear-gradient(#fffcf1, #fffdf5);
-	background: -moz-linear-gradient(#fffcf1, #fffdf5);
-	background: -o-linear-gradient(#fffcf1, #fffdf5);
-	background: -ms-linear-gradient(#fffcf1, #fffdf5);
-	background: linear-gradient(#fffcf1, #fffdf5);
+	background: #fffefa;
+ 	background: -webkit-linear-gradient(#fffefa, #fffdf5);
+	background: -moz-linear-gradient(#fffefa, #fffdf5);
+	background: -o-linear-gradient(#fffefa, #fffdf5);
+	background: -ms-linear-gradient(#fffefa, #fffdf5);
+	background: linear-gradient(#fffefa, #fffdf5);
 	color: #004358;
 }
 h1,h2{
@@ -238,7 +238,7 @@ ol.breadcrumb{
 }
 /*heart button*/
 .content button{
-	width: 20%;
+	width: 45px;
 	height: 40px;
 	background: #1f8a70;
 	font-size: 2em;
@@ -249,6 +249,9 @@ ol.breadcrumb{
 	margin-top:10px;
 	margin-left: 17%;
 	cursor: pointer;
+}
+.content .glyphicon-heart{
+	padding: 2%;
 }
 /*hover over heart*/
 .content button:hover{
@@ -511,6 +514,9 @@ footer{
 	border-radius: 70px;
 	float: right;
 }
+#addToFavs:hover{
+	opacity:0.5;
+}
 /*heart in fav add to button*/
 #addToFavs .glyphicon-heart{
 	font-size: 2em;
@@ -648,11 +654,19 @@ footer{
 
 	/* All Mobile Sizes (devices and browser) */
 	@media only screen and (max-width: 767px) {
-		
-	}
-
+		/*this will make hidden button and div show up on hover*/
+	 .listBox:hover .content{
+		-webkit-transform: translateY(-300px);
+		-moz-webkit-transform: translateY(-300px);
+		-moz-o-transform: translateY(-300px);
+		-moz-ms-transform: translateY(-300px);
+		transform: translateY(-300px);
+		}
+}
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ }
 
 	}
 
