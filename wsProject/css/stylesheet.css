@@ -150,7 +150,7 @@ ol.breadcrumb{
 /***************SEARCH SECTION******************/
 /*search section*/
 #search{
-	padding-top: 50px;
+	padding-top: 80px;
 }
 /*search button*/
 .btn-primary{
@@ -321,7 +321,7 @@ footer{
 	background: -o-linear-gradient(#4ca18d, #1f8a70);
 	background: -ms-linear-gradient(#4ca18d, #1f8a70);
 	background: linear-gradient(#4ca18d, #1f8a70);
-	margin-top: 30px;
+	margin-top: 50px;
 }
 /**/
 .jumbotron h2{
@@ -339,7 +339,7 @@ footer{
 /********Second Article Section*********/
 /*container for second article row*/
 #secondArticle{
-	margin-top: 30px;
+	margin-top: 50px;
 	padding-bottom: 30px;
 }
 /*article with feature artist*/
@@ -436,6 +436,10 @@ footer{
 	float: right;
 	margin:20px;
 	border: 2px solid #004358;
+}
+/*section above listing search with title and dropdon*/
+#beadSearchTop{
+	margin-top: 50px;
 }
 /*header in bead gal*/
 #beadGal h2{
@@ -746,6 +750,10 @@ form button{
 		#modal{
 			top:10px;
 		}
+		/*frature artist section on index page*/
+		#featureArtist{
+			margin-top: 30px;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -768,6 +776,10 @@ form button{
 		#modal{
 			top:10px;
 		}
+		/*frature artist section on index page*/
+		#featureArtist{
+			margin-top: 30px;
+		}
 }
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -780,11 +792,26 @@ form button{
 		#modal{
 			top:10px;
 		}
+		/*frature artist section on index page*/
+		#featureArtist{
+			margin-top: 30px;
+		}
+		/*feature artist img section on index page*/
+		#featureArtist img{
+			margin-bottom: 50px;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
-		
+		/*feature artist section on index page*/
+		#featureArtist{
+			margin-top: 30px;
+		}
+		/*feature artist img section on index page*/
+		#featureArtist img{
+			margin-bottom: 50px;
+		}
 		/*bead article imageon bead.html*/
 		#beadImg{
 			float: none;
