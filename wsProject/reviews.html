@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
      <!-- normailize CSS -->
     <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jqUI/jquery-ui.min.css">
      <!-- Main CSS -->
     <link href="css/stylesheet.css" rel="stylesheet">
     
@@ -18,7 +19,7 @@
 <body>
 <div class="container">
     <header>
-        <div class="row">
+        <div class="row mainNav">
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="navbar-header">
                     <button id="navButton" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -116,7 +117,9 @@
                     <span class="rating glyphicon glyphicon-star" id="star5"></span>
                 </span>
             </p>
-
+            <div id="addReview">
+                <p><a href="#" class="modalClick">Post a Review for this Seller</a></p>
+            </div>
             <!--customer review post-->
             <article class="row customerReview">
                 <h4>Reviewed by <span class="usernameR"> jewelz24 </span></h4>
@@ -176,6 +179,58 @@
             </div>   
         </aside>
     </section><!--review page-->
+    <!--overlay-->
+    <section id="overlay">
+        <!--modal-->
+        <div id="modal">
+
+            <span class="close">X</span>
+            <h3 class="modalHeader">Review</h3>
+            <!--form div-->
+            <div id="addR">
+                <!--form-->
+                <form id="reviewForm">
+                    <label>What did you Purchase?</label><br>
+                    <input name="purchaseName" type="text" id="purchaseName"/>
+                    <br>
+                    <label>Comments:</label><br>
+                    <textarea name="comments" type="text" id="comments">Tell a little about your experience...</textarea>
+                    <br>
+                    <label>Date:</label><br>
+                    <input name="purchaseDate" type="text" id="purchaseDate" class='myDatePicker'/>
+                    <br>
+                    <label for="rating">Rate Your Experience:</label>
+                    <br>
+
+                    <label class="myStatus">
+                        <input type="checkbox" name="status" id="1s">
+                        <p class="glyphicon glyphicon-star"></p>
+                    </label>
+
+                    <label class="myStatus">
+                        <input type="checkbox" name="status" id="2s">
+                        <p class="glyphicon glyphicon-star"></p>
+                    </label>
+
+                    <label class="myStatus">
+                        <input type="checkbox" name="status" id="3s">
+                        <p class="glyphicon glyphicon-star"></p>
+                    </label>
+                    
+                    <label class="myStatus">
+                        <input type="checkbox" name="status" id="4s">
+                        <p class="glyphicon glyphicon-star"></p>
+                    </label>
+                    <label class="myStatus">
+                        <input type="checkbox" name="status" id="5s">
+                        <p class="glyphicon glyphicon-star"></p>
+                    </label><br>
+                    <!--button-->
+                    <button class="btn btn-primary" id='addButton'>Add</button>
+                </form><!--end form-->
+            </div><!--end form div-->
+        </div><!--end modal-->
+    </section>
     <!--footer nav-->
     <footer class="row">
         <ul class="nav nav-pills nav-justified" role="tablist">
@@ -193,6 +248,7 @@
 <!--jQuery-->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/jquery-1.11.1.min.js"></script>
+<script type-'text/javascript' src="js/jquery-ui.min.js"></script>
 <!--Bootstrap js-->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
