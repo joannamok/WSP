@@ -386,7 +386,9 @@ footer{
 #favGal img{
 	margin-bottom: 15px;
 }
-
+#favPag{
+	margin:30px 0 50px 0;
+}
 /***********community fav articles************/
 /*background containers for favs*/
 #fav1,#fav2,#fav3{
@@ -707,6 +709,7 @@ form button{
 	-moz-border-radius: 10px 10px 0 0;
 	-o-border-radius: 10px 10px 0 0;
 	border-radius: 10px 10px 0 0;
+	margin-top: 60px;
 }
 /***Search Results***/
 /*box holding tut search results*/
