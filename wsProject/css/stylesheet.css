@@ -709,6 +709,10 @@ form button{
 	border-color: #1f8a70;
 	color: #fffae7;
 }
+/*border for accordion panels*/
+.panel-default {
+border-color: inherit;
+}
 /*section holding videos in accordion*/
 .tutSection{
 	margin-top: 20px;
