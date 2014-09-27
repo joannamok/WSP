@@ -73,7 +73,6 @@ ul.pagination>li>a{
 a{
 	outline: 0;
 }
-
 /***********************MAIN NAV*********************************/
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	background: #1f8a70;
@@ -85,7 +84,11 @@ a{
 }
 /*nav bar text*/
 .navbar-default .navbar-nav>li>a {
-color: #fffdf5;
+	color: #fffdf5;
+}
+/*nav buttons*/
+.navbar-nav li{
+	width:150px;
 }
 /*active nav button*/
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
@@ -339,7 +342,7 @@ footer{
 /********Second Article Section*********/
 /*container for second article row*/
 #secondArticle{
-	margin-top: 50px;
+	margin-top: 100px;
 	padding-bottom: 30px;
 }
 /*article with feature artist*/
@@ -378,6 +381,7 @@ footer{
 	margin-top: 10px;
 }
 /*******************************************************FAV.HTML PAGE********************************************/
+
 /*title for fav gallery*/
 #favGal h2{
 	margin-bottom: 30px;
@@ -392,7 +396,7 @@ footer{
 /***********community fav articles************/
 /*background containers for favs*/
 #fav1,#fav2,#fav3{
-	padding: 10px 40px 60px 40px;
+	padding: 60px 40px 60px 40px;
 }
 /*headers for com fav sections*/
 #fav1 h2,#fav2 h2,#fav3 h2{
@@ -509,14 +513,22 @@ footer{
 #cms{
 	color: #004358;
 }
+/*add to favs paragraph*/
+#addFavs{
+	width: 130px;
+	float: right;
+	margin-top:40px;
+	color: #1f8a70;
+}
 /*add to favs button*/
 #addToFavs{
-	background:#1f8a70;;
+	background:#1f8a70;
 	-webkit-border-radius: 70px;
 	-moz-border-radius: 70px;
 	-o-border-radius: 70px;
 	border-radius: 70px;
 	float: right;
+	margin: 5px;
 }
 #addToFavs:hover{
 	opacity:0.5;
@@ -529,7 +541,7 @@ footer{
 /****Suggested listings***/
 
 #sugBox{
-	margin-top: 100px;
+	margin-top: 200px;
 	padding-top: 30px;
 	border-top: 2px solid #004358;
 }
